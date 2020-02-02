@@ -18,6 +18,11 @@ import MenuIcon from '@material-ui/icons/Menu';
 import HomePage from './components/HomePage';
 import Footer from './components/Footer';
 import MapContainer from './components/MapContainer';
+<<<<<<< HEAD
+=======
+import SignIn from './components/SignIn';
+import NeedFood from './components/NeedFood';
+>>>>>>> 69dde1b729e127ebe4ed74eed47c3b52607e5ed8
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -39,7 +44,11 @@ export default function App() {
     <Router>
       <div>
         <div className={classes.root}>
+<<<<<<< HEAD
           <AppBar position="static" style={{backgroundColor: '#adf3a9'}}>
+=======
+          <AppBar position="static" style={{backgroundColor: '#4CAF50'}}>
+>>>>>>> 69dde1b729e127ebe4ed74eed47c3b52607e5ed8
             <Toolbar >
               <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                 <MenuIcon />
@@ -52,12 +61,22 @@ export default function App() {
 
               <div style={{flex:1}}></div>
 
+<<<<<<< HEAD
               <Link to='/user'>
+=======
+              <Link to='/need'>
+>>>>>>> 69dde1b729e127ebe4ed74eed47c3b52607e5ed8
                 <Button color="inherit">Need food</Button>
               </Link>
               <Link to='/donate'>
                 <Button color="inherit">Donate food</Button>
               </Link>
+<<<<<<< HEAD
+=======
+              <Link to='/signin'>
+                <Button color="inherit">Sign In</Button>
+              </Link>
+>>>>>>> 69dde1b729e127ebe4ed74eed47c3b52607e5ed8
             </Toolbar>
           </AppBar>
         </div>
@@ -70,9 +89,21 @@ export default function App() {
           <Route path="/donate">
             <HomePage />
           </Route>
+<<<<<<< HEAD
           <Route path="/locator">
             <MapContainer/>
           </Route>
+=======
+          <Route path="/need">
+            <NeedFood />
+          </Route>
+          <Route path="/locator">
+            <MapContainer/>
+          </Route>
+          <Route path="/signin">
+            <SignIn/>
+          </Route>
+>>>>>>> 69dde1b729e127ebe4ed74eed47c3b52607e5ed8
           <Route path="/">
             <HomePage />
           </Route>
