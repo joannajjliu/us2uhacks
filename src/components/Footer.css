@@ -1,0 +1,32 @@
+footer{
+    background: tomato;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /*flex items will wrap onto multiple lines, from top to bottom.*/
+    padding: 0;
+  }
+  .section-top{
+   background:#4CAF50;
+   display: flex; 
+   justify-content: center; /*items are centered along the line*/
+   padding: 20px 0;
+   }
+  .section-bottom{
+    background: blue;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .col{
+    margin: 0 15px;
+    width: 25% /*optional*/
+  }
+  @media all and (max-width: 600px){ /*style if screen size is <600px*/
+  .section-top{
+      flex-direction: column;
+  }    
+  .col{
+    text-align: center;
+    width: 100%;
+    margin: 0
+  }
+}
