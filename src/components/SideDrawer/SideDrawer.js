@@ -8,7 +8,7 @@ const sideDrawer = props => (
             <li><a href="/">Products</a></li>
             <li><a href="/">Users</a></li>
         </ul>
-    </nav>
+    </nav> 
 )
 
 export default sideDrawer;
