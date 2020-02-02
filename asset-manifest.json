@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/us2uhacks/static/css/main.c6f28c0c.chunk.css",
+    "main.js": "/us2uhacks/static/js/main.0a9c21a2.chunk.js",
+    "main.js.map": "/us2uhacks/static/js/main.0a9c21a2.chunk.js.map",
+    "runtime-main.js": "/us2uhacks/static/js/runtime-main.3c6ad3ef.js",
+    "runtime-main.js.map": "/us2uhacks/static/js/runtime-main.3c6ad3ef.js.map",
+    "static/js/2.4dfe85fc.chunk.js": "/us2uhacks/static/js/2.4dfe85fc.chunk.js",
+    "static/js/2.4dfe85fc.chunk.js.map": "/us2uhacks/static/js/2.4dfe85fc.chunk.js.map",
+    "index.html": "/us2uhacks/index.html",
+    "precache-manifest.69e83d013b681668ca62963b171bb0e0.js": "/us2uhacks/precache-manifest.69e83d013b681668ca62963b171bb0e0.js",
+    "service-worker.js": "/us2uhacks/service-worker.js",
+    "static/css/main.c6f28c0c.chunk.css.map": "/us2uhacks/static/css/main.c6f28c0c.chunk.css.map",
+    "static/js/2.4dfe85fc.chunk.js.LICENSE.txt": "/us2uhacks/static/js/2.4dfe85fc.chunk.js.LICENSE.txt",
+    "static/media/climatechange.jpg": "/us2uhacks/static/media/climatechange.b46aec81.jpg",
+    "static/media/ellehack.jpg": "/us2uhacks/static/media/ellehack.d16ae289.jpg",
+    "static/media/tedx.jpg": "/us2uhacks/static/media/tedx.a9ff4c6d.jpg",
+    "static/media/us2u_logo_green.png": "/us2uhacks/static/media/us2u_logo_green.04a317cd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c6ad3ef.js",
+    "static/js/2.4dfe85fc.chunk.js",
+    "static/css/main.c6f28c0c.chunk.css",
+    "static/js/main.0a9c21a2.chunk.js"
+  ]
+}
