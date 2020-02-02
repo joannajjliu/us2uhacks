@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Map, GoogleApiWrapper } from 'google-maps-react';
+import { Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import {
+  Link
+} from "react-router-dom";
 
 const mapStyles = {
   display: 'flex',
@@ -19,7 +22,16 @@ export class MapContainer extends Component {
          lat: 43.768853,
          lng: -79.505030
         }}
-      />
+      >
+        <Link to='/signin'>
+        <Marker
+            lat={11.0168}
+            lng={76.9558}
+            name="My Marker"
+            color="blue"
+          />
+        </Link>
+      </Map>
     );
   }
 }
